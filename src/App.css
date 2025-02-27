@@ -1,0 +1,15 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #effafa;
+}
+@font-face {
+  font-family: "leagueSpartan";
+  src: url("./assets/fonts/LeagueSpartan-VariableFont_wght.ttf");
+}
+@theme {
+  --font-leagueSpartan: "leagueSpartan";
+}
