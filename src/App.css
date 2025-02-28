@@ -3,6 +3,10 @@
   box-sizing: border-box;
   margin: 0;
 }
+#root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 body {
   background-color: #effafa;
 }

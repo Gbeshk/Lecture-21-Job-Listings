@@ -8,7 +8,7 @@ function FirstLine({ company, new: isNew, featured }: FirstLineProps) {
   return (
     <>
       <div className="flex items-center">
-        <h1 className="font-leagueSpartan font-bold text-[18px] leading-[16.56px] tracking-[0px] text-[#5CA5A5]">
+        <h1 className="font-leagueSpartan font-bold sm:text-[18px] text-[13px] leading-[16.56px] tracking-[0px] text-[#5CA5A5]">
           {company}
         </h1>
         {isNew && (

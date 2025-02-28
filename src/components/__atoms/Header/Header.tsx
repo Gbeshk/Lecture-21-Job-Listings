@@ -1,9 +1,9 @@
-import desktopheader from "../../../assets/images/bg-header-desktop.svg";
+import desktopheader from "../../../assets/images/desktopi.png";
 function Header() {
   return (
     <>
-      <div className="bg-[#5CA5A5] w-full h-full flex items-center justify-center">
-        <img src={desktopheader} className="" alt="" />
+      <div className="w-full h-[156px] flex items-center justify-center object-fill ">
+        <img className="!h-[156px]" src={desktopheader} alt="" />
       </div>
     </>
   );
